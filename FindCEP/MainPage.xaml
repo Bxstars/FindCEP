@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:local="clr-namespace:FindCEP"
+             x:Class="FindCEP.MainPage">
+
+
+
+    <StackLayout Spacing="30">
+        <StackLayout Padding="30,50">
+            <Image Source="Logo.png" 
+                       x:Name="LOGO"
+                       Aspect="AspectFit"
+                       HeightRequest="100"
+                       />
+
+        </StackLayout>
+
+        <StackLayout Padding="30,10">
+            <Entry  HorizontalTextAlignment="Center"
+                        VerticalOptions="Center"
+                        Placeholder="Digite o CEP"
+                        PlaceholderColor="#3A56A6" 
+                        BackgroundColor="#F1F3F6"
+                        x:Name="CEP" 
+                        Keyboard="Numeric" 
+                        />
+        </StackLayout>
+
+        <StackLayout Padding="100,10">
+            <Button Text="Buscar" 
+                        x:Name="BOTAO" 
+                        TextColor="#FFFFFF" 
+                        BackgroundColor="#3A56A6" 
+                        VerticalOptions="Center"
+                        />
+        </StackLayout>
+
+
+        <StackLayout >
+            <Label Text="" x:Name="RESULTADO"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand"
+                        FontSize="18"
+                        TextColor="#3A56A6"/>
+        </StackLayout>
+        
+
+     </StackLayout>
+
+   
+</ContentPage>
+
