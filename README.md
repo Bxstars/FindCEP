@@ -1,4 +1,4 @@
-![TelasApp1](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/Banner.PNG)
+![](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/Banner.PNG)
 
 ## Sobre
 
@@ -12,6 +12,6 @@ Retorno da busca realizado pelo WebService gratuito **ViaCEP**.
 
 ## Créditos
 
-**Ícones** feitos por <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a></div>
+**Ícones** feitos por <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>
 
 **ViaCEP https://viacep.com.br/** - Consultar Códigos de Endereçamento Postal (CEP) do Brasil.
