@@ -1,4 +1,4 @@
-> ![TelasApp1](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/Banner.PNG)
+![TelasApp1](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/Banner.PNG)
 
 ## Sobre
 
