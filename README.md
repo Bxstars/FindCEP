@@ -4,4 +4,4 @@ Aplicação buscar logradouros, atraves do **CEP (Código de Endereçamento Post
 
 Retorno da busca realizado pelo WebService gratuito **ViaCEP** https://viacep.com.br/
 
-![GitHub Logo](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/1.jpeg)
+![GitHub Logo](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/1.1.png)
