@@ -2,6 +2,6 @@
 
 Aplicação buscar logradouros, atraves do **CEP (Código de Endereçamento Postal)** informado pelo usuário.
 
-Retorno da busca realizado pelo WebService gratuito **ViaCEP https://viacep.com.br/**
+Retorno da busca realizado pelo WebService gratuito **ViaCEP** https://viacep.com.br/
 
-![FindCEP](/Pictures/cep/Apresentação/processed.jpeg)
+![FindCEP](.../Pictures/cep/Apresentação/processed.jpeg)
