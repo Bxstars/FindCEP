@@ -5,3 +5,6 @@ Aplicação buscar logradouros, atraves do **CEP (Código de Endereçamento Post
 Retorno da busca realizado pelo WebService gratuito **ViaCEP** https://viacep.com.br/
 
 ![FindCEP](.../Pictures/cep/Apresentação/processed.jpeg)
+
+Format: ![Alt Text](D:\Users\Barbara Xavier\Pictures\cep\Apresentação\processed.jpeg)
+
