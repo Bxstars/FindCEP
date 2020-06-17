@@ -30,6 +30,4 @@ Xamarin.Forms | 4.6.0.847 | https://www.nuget.org/packages/Xamarin.Forms
 
 **Icons** made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>
 
-**ViaCEP https://viacep.com.br/** - Consult Brazil Postal Address Codes (CEP)
-
-[_Consultar Códigos de Endereçamento Postal (CEP) do Brasil_]
+**ViaCEP https://viacep.com.br/** Consult Brazil Postal Address Codes (CEP) - [_Consultar Códigos de Endereçamento Postal (CEP) do Brasil_]
