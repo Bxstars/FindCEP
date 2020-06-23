@@ -5,7 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:local="clr-namespace:FindCEP"
-             x:Class="FindCEP.MainPage">
+             x:Class="FindCEP.MainPage"
+             BackgroundColor="#F1F3F6">
 
 
 
@@ -24,7 +25,6 @@
                         VerticalOptions="Center"
                         Placeholder="Digite o CEP"
                         PlaceholderColor="#3A56A6" 
-                        BackgroundColor="#F1F3F6"
                         x:Name="CEP" 
                         Keyboard="Numeric" 
                         />
@@ -34,7 +34,7 @@
             <Button Text="Buscar" 
                         x:Name="BOTAO" 
                         TextColor="#FFFFFF" 
-                        BackgroundColor="#3A56A6" 
+                        BackgroundColor="#5464F2" 
                         VerticalOptions="Center"
                         />
         </StackLayout>

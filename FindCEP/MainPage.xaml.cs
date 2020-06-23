@@ -44,7 +44,7 @@ namespace FindCEP
 
                     if (end != null)
                     {
-                        RESULTADO.Text = string.Format("Endereço : {0}\r\nBairro : {1}\r\nCompl. : ({2}\r\nCidade : {3} - {4}", end.logradouro, end.bairro, end.complemento, end.localidade, end.uf);
+                        RESULTADO.Text = string.Format("Endereço : {0}\r\nBairro : {1}\r\nCompl. : {2}\r\nCidade : {3} - {4}", end.logradouro, end.bairro, end.complemento, end.localidade, end.uf);
                     }
 
                     else
