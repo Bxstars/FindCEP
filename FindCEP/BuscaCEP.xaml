@@ -5,10 +5,8 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              xmlns:local="clr-namespace:FindCEP"
-             x:Class="FindCEP.MainPage"
-             BackgroundColor="#F1F3F6">
-
-
+             x:Class="FindCEP.BuscaCEP"
+             BackgroundColor= "#30363D">
 
     <StackLayout Spacing="30">
         <StackLayout Padding="30,50">
@@ -22,9 +20,11 @@
 
         <StackLayout Padding="30,10">
             <Entry  HorizontalTextAlignment="Center"
+                        BackgroundColor="#30363D"
+                        TextColor="#CBCFD4"
                         VerticalOptions="Center"
                         Placeholder="Digite o CEP"
-                        PlaceholderColor="#3A56A6" 
+                        PlaceholderColor="#CBCFD4" 
                         x:Name="CEP" 
                         Keyboard="Numeric" 
                         />
@@ -39,18 +39,16 @@
                         />
         </StackLayout>
 
-
         <StackLayout >
             <Label Text="" x:Name="RESULTADO"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand"
                         FontSize="18"
-                        TextColor="#3A56A6"/>
+                        TextColor="#CBCFD4"/>
         </StackLayout>
-        
 
-     </StackLayout>
+    </StackLayout>
 
-   
+
 </ContentPage>
 

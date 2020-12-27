@@ -13,17 +13,16 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace FindCEP
 {
-    public partial class MainPage : ContentPage
+    public partial class BuscaCEP : ContentPage
     {
-        public MainPage()
+        public BuscaCEP()
         {
             InitializeComponent();
 
             BOTAO.Clicked += BuscarCEP;
-
         }
 
-    private void BuscarCEP(object sender, EventArgs args)
+        private void BuscarCEP(object sender, EventArgs args)
         {
 
             StatusConexao();
@@ -32,14 +31,14 @@ namespace FindCEP
 
             if (CEP.Text != null)
             {
-                cep = CEP.Text.Trim();  
+                cep = CEP.Text.Trim();
             }
 
             if (isValidCEP(cep))
             {
                 try
                 {
-                 
+
                     Endereco end = ViaCEPServico.BuscarEnderecoViaCEP(cep);
 
                     if (end != null)
@@ -72,9 +71,9 @@ namespace FindCEP
                 valido = false;
             }
 
-            else if (cep.Length != 8)
+             if (cep.Length != 8 || cep.Length >8)
             {
-                DisplayAlert("Alertpa: CEP inválido!", " O CEP deve conter 8 caracteres.", "Ok");
+                DisplayAlert("Alerta: ", " O CEP deve conter 8 caracteres.", "Ok");
 
                 valido = false;
             }
@@ -83,7 +82,7 @@ namespace FindCEP
 
             if (!int.TryParse(cep, out NovoCEP))
             {
-                DisplayAlert("Alerta: CEP inválido!", "O CEP deve ser composto apenas por números", "Ok");
+                DisplayAlert("Alerta: CEP inválido!", "", "Ok");
 
                 valido = false;
             }
@@ -98,7 +97,7 @@ namespace FindCEP
                 DisplayAlert("No Internet", "", "Ok");
                 return;
             }
-        }  
+        }
 
     }
 }

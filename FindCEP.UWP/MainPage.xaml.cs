@@ -21,7 +21,7 @@ namespace FindCEP.UWP
         {
             this.InitializeComponent();
 
-            LoadApplication(new FindCEP.App());
+             LoadApplication(new FindCEP.App());
         }
     }
 }
