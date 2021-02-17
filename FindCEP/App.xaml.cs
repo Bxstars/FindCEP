@@ -10,7 +10,6 @@ namespace FindCEP
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
             MainPage = new Menu();
         }
 

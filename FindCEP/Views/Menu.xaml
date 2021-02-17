@@ -14,7 +14,7 @@
                         </Grid.ColumnDefinitions>
                         <Grid.RowDefinitions>
                             <RowDefinition Height="30"/>
-                            <RowDefinition Height="80"/>
+                            <RowDefinition Height="30"/>
                             <RowDefinition Height="Auto"/>
                             <RowDefinition Height="10"/>
                         </Grid.RowDefinitions>
@@ -22,17 +22,9 @@
                           Grid.Column="1"
                           Grid.Row="2"
                           Text="Buscar"
-                          TextColor="White" FontSize="Large"/>
+                          TextColor="White" FontSize="27"/>
                     </Grid>
-
-                    <TableView Intent="Menu">
-                        <TableSection>
-                            <ViewCell Tapped="GoBuscaCEP">
-                                <StackLayout Padding="15,10">
-                                    <Label Text="CEP" VerticalTextAlignment="Center"/>
-                                </StackLayout>
-                            </ViewCell>
-                        </TableSection>
+                    <TableView Intent="Menu" BackgroundColor="#F1F3F6">
                         <TableSection>
                             <ViewCell Tapped="GoBuscaLogradouro">
                                 <StackLayout Padding="15,10">
@@ -40,14 +32,8 @@
                                 </StackLayout>
                             </ViewCell>
                         </TableSection>
-                        <TableSection>
-                            <ViewCell Tapped="GoBuscaBairro">
-                                <StackLayout Padding="15,10">
-                                    <Label Text="Bairro" VerticalTextAlignment="Center"/>
-                                </StackLayout>
-                            </ViewCell>
-                        </TableSection>
                     </TableView>
+                    
                 </StackLayout>
             </ContentPage.Content>
         </ContentPage>

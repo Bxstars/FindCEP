@@ -6,30 +6,25 @@
              mc:Ignorable="d"
              xmlns:local="clr-namespace:FindCEP"
              x:Class="FindCEP.BuscaCEP"
-             BackgroundColor= "#30363D">
+             BackgroundColor= "#F1F3F6">
 
     <StackLayout Spacing="30">
         <StackLayout Padding="30,50">
-            <Image Source="Logo.png" 
+            <Image Source="logo.png" 
                        x:Name="LOGO"
                        Aspect="AspectFit"
                        HeightRequest="100"
                        />
-
         </StackLayout>
-
         <StackLayout Padding="30,10">
             <Entry  HorizontalTextAlignment="Center"
-                        BackgroundColor="#30363D"
-                        TextColor="#CBCFD4"
                         VerticalOptions="Center"
                         Placeholder="Digite o CEP"
-                        PlaceholderColor="#CBCFD4" 
+                        PlaceholderColor="#3A56A6" 
                         x:Name="CEP" 
                         Keyboard="Numeric" 
                         />
         </StackLayout>
-
         <StackLayout Padding="100,10">
             <Button Text="Buscar" 
                         x:Name="BOTAO" 
@@ -38,17 +33,13 @@
                         VerticalOptions="Center"
                         />
         </StackLayout>
-
         <StackLayout >
             <Label Text="" x:Name="RESULTADO"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand"
-                        FontSize="18"
-                        TextColor="#CBCFD4"/>
+                        FontSize="Body"
+                        TextColor="#3A56A6"/>
         </StackLayout>
-
     </StackLayout>
-
-
 </ContentPage>
 

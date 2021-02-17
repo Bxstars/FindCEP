@@ -9,23 +9,11 @@ namespace FindCEP
         public Menu()
         {
             InitializeComponent();
-            Detail = new NavigationPage(new MenuDetail());
+            Detail = new NavigationPage(new BuscaCEP());
         }
-		private void GoBuscaCEP(object sender, System.EventArgs e)
-		{
-			Detail.Navigation.PushAsync(new BuscaCEP());
-			IsPresented = false;
-		}
-
 		private void GoBuscaLogradouro(object sender, System.EventArgs e)
 		{
 			Detail.Navigation.PushAsync(new BuscaLogradouro());
-			IsPresented = false;
-		}
-
-		private void GoBuscaBairro(object sender, System.EventArgs e)
-		{
-			Detail.Navigation.PushAsync(new BuscaBairro());
 			IsPresented = false;
 		}
 	}
