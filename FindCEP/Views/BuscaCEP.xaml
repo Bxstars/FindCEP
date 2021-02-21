@@ -4,42 +4,46 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             xmlns:local="clr-namespace:FindCEP"
+             BackgroundColor= "{DynamicResource BackgroundColor}"
              x:Class="FindCEP.BuscaCEP"
-             BackgroundColor= "#F1F3F6">
+             Title="Voltar" >
 
     <StackLayout Spacing="30">
-        <StackLayout Padding="30,50">
+        <StackLayout Padding="30,30">
             <Image Source="logo.png" 
                        x:Name="LOGO"
                        Aspect="AspectFit"
-                       HeightRequest="100"
-                       />
+                       HeightRequest="100"/>
         </StackLayout>
-        <StackLayout Padding="30,10">
-            <Entry  HorizontalTextAlignment="Center"
+        <StackLayout Padding="40,10">
+            <Entry  x:Name="CEP" 
+                        Keyboard="Numeric" 
+                        HorizontalTextAlignment="Center"
                         VerticalOptions="Center"
                         Placeholder="Digite o CEP"
-                        PlaceholderColor="#3A56A6" 
-                        x:Name="CEP" 
-                        Keyboard="Numeric" 
-                        />
+                        PlaceholderColor="{DynamicResource TextLabelColor}"
+                        BackgroundColor="{DynamicResource PlaceHoldBGColor}"
+                        TextColor="{DynamicResource  TextLabelColor}" />
         </StackLayout>
         <StackLayout Padding="100,10">
             <Button Text="Buscar" 
                         x:Name="BOTAO" 
                         TextColor="#FFFFFF" 
-                        BackgroundColor="#5464F2" 
-                        VerticalOptions="Center"
-                        />
+                        BackgroundColor="{DynamicResource TextTituloColor}" 
+                        VerticalOptions="Center"/>
         </StackLayout>
         <StackLayout >
             <Label Text="" x:Name="RESULTADO"
                         HorizontalOptions="Center"
                         VerticalOptions="CenterAndExpand"
                         FontSize="Body"
-                        TextColor="#3A56A6"/>
+                        TextColor="{DynamicResource TextLabelColor}"/>
+        </StackLayout>
+
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <!-- Place new controls here -->
+            <Switch x:Name="temaToggle" IsToggled="False" Toggled="Switch_Toggled"/>
+            <Label TextColor="red" Text="Habilitar Modo Escuro"/>
         </StackLayout>
     </StackLayout>
 </ContentPage>
-

@@ -1,13 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FindCEP.MenuDetail"
-             BackgroundColor="#F1F3F6">
+             x:Class="FindCEP.Inicio" 
+             BackgroundColor="Black">
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout VerticalOptions="CenterAndExpand" Padding="30,50">
-                <Label Text="Tela Inicial"/>
-            </StackLayout>
+            <Label Text="Buscar Por" TextColor="Blue"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using FindCEP.Serviços.Modelo;
 using FindCEP.Serviços;
 using Xamarin.Essentials;
+using static FindCEP.App;
 
 namespace FindCEP
 {
@@ -91,6 +92,26 @@ namespace FindCEP
                 return;
             }
         }
+        private void Switch_Toggled(object sender, ToggledEventArgs e)
+        {
+            var toggleStatus = temaToggle.IsToggled;
+            SetTheme(toggleStatus);
 
+        }
+
+        void SetTheme(bool status)
+        {
+            Theme themeRequested;
+            if (status)
+            {
+                themeRequested = Theme.Dark;
+            }
+            else
+            {
+                themeRequested = Theme.Light;
+            }
+
+            DependencyService.Get<IAppTheme>().SetAppTheme(themeRequested);
+        }
     }
 }

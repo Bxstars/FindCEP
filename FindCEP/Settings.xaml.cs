@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace FindCEP
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MainPage : ContentPage
+    public partial class Settings : ContentPage
     {
-        public MainPage()
+        public Settings()
         {
             InitializeComponent();
         }

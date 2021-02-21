@@ -6,6 +6,6 @@
              mc:Ignorable="d"
              x:Class="FindCEP.App">
     <Application.Resources>
-
+        <ResourceDictionary Source="Styles/TemaClaro.xaml" /> 
     </Application.Resources>
 </Application>

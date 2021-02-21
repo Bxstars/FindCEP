@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FindCEP.Styles.TemaEscuro">
+
+    <Color x:Key="BackgroundColor">#30363D</Color>
+    <Color x:Key="TextLabelColor">#CBCFD4</Color>
+    <Color x:Key="TextTituloColor">#5464F2</Color>
+    <Color x:Key="PlaceHoldBGColor">#30363D</Color>
+
+    </ResourceDictionary>

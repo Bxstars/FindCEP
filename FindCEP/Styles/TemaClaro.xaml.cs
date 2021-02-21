@@ -7,15 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FindCEP
+namespace FindCEP.Styles
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class MenuDetail : ContentPage
+    public partial class TemaClaro : ResourceDictionary
     {
-        public MenuDetail()
+        public TemaClaro()
         {
-             InitializeComponent();
+            InitializeComponent();
         }
-           
     }
 }

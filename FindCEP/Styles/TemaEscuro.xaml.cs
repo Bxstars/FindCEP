@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace FindCEP
+namespace FindCEP.Styles
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class BuscaBairro : ContentPage
+    public partial class TemaEscuro : ResourceDictionary
     {
-        public BuscaBairro()
+        public TemaEscuro()
         {
             InitializeComponent();
         }

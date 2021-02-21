@@ -4,7 +4,7 @@ using System.Text;
 
 namespace FindCEP.ViewModels
 {
-    class BuscaLogradouro
+    class BuscaCEPViewModel
     {
     }
 }
