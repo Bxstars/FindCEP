@@ -11,11 +11,6 @@ Search returned by the free **ViaCEP** WebService.
 [_Retorno da busca realizado pelo WebService gratuito ViaCEP_]
 
 
-## Screens [Telas]
-
-> ![](https://github.com/Bxstars/FindCEP/blob/master/TelasApp/FindCEP.gif)
-
-
 ## Packages [Pacotes]
 
 Package | Version | Links
